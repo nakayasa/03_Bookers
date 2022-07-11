@@ -22,11 +22,10 @@
 }
 
 .start{
-  line-height: 18px;
-  margin: 33px;
+  margin:33px;
 }
 
-.top{
+.top, .index_top{
   display: block;
   font-size: 2em;
   margin-block-start: 0.67em;
@@ -34,18 +33,70 @@
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
-  line-height: 18px;
+}
+
+.Bookers{
+  font-weight: bold;
+  margin:0;
 }
 
 .top2{
   font-size: 13px;
   line-height: 18px;
-  margin: 33px;
 }
 
+p {
+    display: block;
+    margin:33px;
+}
+.index{
+  margin:33px;
+}
 
-*{
-  font-size: 13px;
-  line-height: 18px;
-  margin: 33px;
+.index_top{
+    padding:1px,1px,5px,0;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+th {
+    padding-bottom:5px;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.create{
+  margin-bottom:10px;
+}
+
+h4{
+  margin:0;
+  font-weight:lighter
 }
